@@ -1,0 +1,9 @@
+{
+  "stripeSecretKey": "sk_test_oQn92nS73ZBEprPorOT9RLBG",
+  "public": {
+    "stripePublicKey": "pk_test_xsSCaN3E2W6JhnSpGuXyrSwa"
+  },
+  "salesDB" : {
+    "connectionString" : "postgresql://rocket1:madhu123@localhost/rocketshop"
+  }
+}

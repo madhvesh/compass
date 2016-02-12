@@ -1,0 +1,15 @@
+<template name="homeIndex">
+    <div class="container">
+        <div class="row">
+            <div class="well">
+                <h1 class="text-center">Items recommend based on your inventory!!  </h1>
+                {{#each featured}}
+                        {{>productTile}}
+                   {{/each}}
+                <div class="list-group">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
